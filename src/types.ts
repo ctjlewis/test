@@ -1,12 +1,4 @@
-export interface TestUtilities {
-  shouldBeEqual: (value1: unknown, value2: unknown) => void;
-  shouldBeTruthy: (value: unknown) => void;
-  shouldBeFalsy: (value: unknown) => void;
-  shouldThrow: (value: unknown) => void;
-  shouldNotThrow: (value: unknown) => void;
-};
-
-export interface TestContext extends TestUtilities {
+export interface TestContext {
   cwd: string;
 };
 
@@ -16,3 +8,10 @@ export type Test = {
   name: string;
   cwd: string;
 };
+
+export type TestResults = Map<string, TestResult>;
+export interface TestResult {
+  name: string;
+  failed: boolean;
+  error?: string;
+}

@@ -1,16 +1,9 @@
 #!/usr/bin/env bun
 
-import { runTests } from ".";
+import * as glob from "fast-glob"
+import { runTests } from "./lib/run";
 
-// import { style } from "bun-style";
+const args = process.argv.slice(2);
+const files: string[] = args.length ? args : glob.sync("./test/**/*.test.ts");
 
-// console.log(
-//   "\n\n",
-//   style(" Running tests... ", ["bold", "underline", "grey"]),
-//   "\n\n",
-//   style(" ✓ 10 tests passed", ["green"]),
-//   "\n\n",
-// );
-
-await runTests("./test/index.test.ts");
-// console.log("done");
+await runTests(...files);

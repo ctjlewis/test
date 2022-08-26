@@ -3,6 +3,8 @@
   "license": "MIT",
   "version": "0.0.3",
   "type": "module",
+  "bin": "src/bin.ts",
+  "types": "src/index.ts",
   "exports": {
     ".": "./src/index.ts",
     "./*": "./src/*/index.ts"
@@ -12,8 +14,20 @@
     "eslint": "^8.22.0"
   },
   "dependencies": {
-    "ansi-styles": "^6.1.0",
-    "bun-style": "^0.0.4",
+    "bun-spinners": "^0.2.0",
+    "bun-style": "^0.3.0",
+    "fast-glob": "^3.2.11",
     "ora": "^6.1.2"
+  },
+  "files": [
+    "tsconfig.json",
+    "bun.lockb",
+    "node_modules.bun",
+    "assets/**/*",
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctjlewis/bun-test.git"
   }
 }

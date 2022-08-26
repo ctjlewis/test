@@ -11,7 +11,7 @@ export const shouldBeEqual = (value1: unknown, value2: unknown) => throwIfFalse(
 );
 
 export const shouldBeTruthy = (value: unknown) => throwIfFalse(
-  Boolean(value), 
+  Boolean(value),
   `expected ${value} to be truthy`
 );
 
@@ -21,11 +21,16 @@ export const shouldBeFalsy = (value: unknown) => throwIfFalse(
 );
 
 export const shouldThrow = async (fn: () => unknown | Promise<unknown>) => {
+  let _shouldThrow = false;
   try {
     await fn();
-    throw new Error(`should throw, but did not`);
+    _shouldThrow = true;
   } catch (err) {
-    // pass
+    _shouldThrow = false;
+  }
+
+  if (_shouldThrow) {
+    throw new Error(`should throw, but did not`);
   }
 }
 

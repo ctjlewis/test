@@ -1,10 +1,25 @@
-import { test } from "../src";
+import { shouldBeEqual, shouldThrow } from "../src";
+import { test, tests } from "../src/lib/test";
 
-test("first test", async (t) => {
-  await new Promise((resolve) => setTimeout(resolve, 3000));
-})
+const sleep = async (ms: number) => await new Promise((resolve) => setTimeout(resolve, ms));
 
-test("second test", async (t) => {
-  await new Promise((resolve) => setTimeout(resolve, 5000));
-  t.shouldBeEqual(1, 1);
-})
+tests(
+  test("something should do a thing", async () => {
+    await sleep(3000);
+  }),
+  test("something should happen", async () => {
+    await sleep(5000);
+    shouldBeEqual(1, 5);
+  }),
+  test("should throw", async () => {
+    await sleep(2000);
+    await shouldThrow(async () => {
+      await sleep(1000);
+      throw "test";
+    });
+    // shouldThrow(async () => {
+    //   // await sleep(3000);
+    //   // throw "Test"
+    // })
+  })
+);
