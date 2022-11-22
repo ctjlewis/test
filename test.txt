@@ -1,0 +1,2345 @@
+yarn run v1.22.19
+$ tsmodule build && npm link -f
+
+  TS Module [production]  
+
+✔ Compiled TSX files.
+✔ Compiled TS/JS files.
+✔ Copied non-source files to dist/.
+✔ Normalized import specifiers.
+
+Bundle styles not found for this project.
+Checked: src/components/index.css
+
+
+  Running post-build setup.  
+
+$ /Users/lewis/Development/bun-test/node_modules/.bin/tsc -p tsconfig.json --moduleResolution Node --module ESNext --target ESNext --esModuleInterop true --incremental false --rootDir src --outDir dist --declaration true --noEmit false --emitDeclarationOnly true
+✔ Generated declarations for 8 files.
+
+Build complete.
+
+npm WARN using --force Recommended protections disabled.
+
+up to date, audited 3 packages in 372ms
+
+found 0 vulnerabilities
+$ tsm-test
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ⠋  a second time: should throw
+  
+  ⠋  a second time: should not throw
+  
+  ⠋  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ⠙  a second time: should throw
+  
+  ⠙  a second time: should not throw
+  
+  ⠙  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ⠹  a second time: should throw
+  
+  ⠹  a second time: should not throw
+  
+  ⠹  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ⠸  a second time: should throw
+  
+  ⠸  a second time: should not throw
+  
+  ⠸  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ⠼  a second time: should throw
+  
+  ⠼  a second time: should not throw
+  
+  ⠼  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ⠴  a second time: should throw
+  
+  ⠴  a second time: should not throw
+  
+  ⠴  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ⠦  a second time: should throw
+  
+  ⠦  a second time: should not throw
+  
+  ⠦  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ⠧  a second time: should throw
+  
+  ⠧  a second time: should not throw
+  
+  ⠧  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ⠇  a second time: should throw
+  
+  ⠇  a second time: should not throw
+  
+  ⠇  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ⠏  a second time: should throw
+  
+  ⠏  a second time: should not throw
+  
+  ⠏  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ⠋  a second time: should throw
+  
+  ⠋  a second time: should not throw
+  
+  ⠋  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ⠙  a second time: should throw
+  
+  ⠙  a second time: should not throw
+  
+  ⠙  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ⠹  a second time: should throw
+  
+  ⠹  a second time: should not throw
+  
+  ⠹  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ⠸  a second time: should throw
+  
+  ⠸  a second time: should not throw
+  
+  ⠸  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ⠼  a second time: should throw
+  
+  ⠼  a second time: should not throw
+  
+  ⠼  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ⠴  a second time: should throw
+  
+  ⠴  a second time: should not throw
+  
+  ⠴  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ⠦  a second time: should throw
+  
+  ⠦  a second time: should not throw
+  
+  ⠦  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ⠧  a second time: should throw
+  
+  ⠧  a second time: should not throw
+  
+  ⠧  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ⠇  a second time: should throw
+  
+  ⠇  a second time: should not throw
+  
+  ⠇  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ⠏  a second time: should throw
+  
+  ⠏  a second time: should not throw
+  
+  ⠏  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ⠋  a second time: should throw
+  
+  ⠋  a second time: should not throw
+  
+  ⠋  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ⠙  a second time: should throw
+  
+  ⠙  a second time: should not throw
+  
+  ⠙  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ⠹  a second time: should throw
+  
+  ⠹  a second time: should not throw
+  
+  ⠹  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ⠸  a second time: should throw
+  
+  ⠸  a second time: should not throw
+  
+  ⠸  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ⠼  a second time: should throw
+  
+  ⠼  a second time: should not throw
+  
+  ⠼  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠴  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠦  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠧  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠇  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠏  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠋  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠙  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠹  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠸  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠼  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠴  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ⠦  should not throw a second time
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠹  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠸  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠼  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠴  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠦  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠧  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠇  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠏  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠋  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ⠙  a second time: something should happen
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  a second time: something should do a thing
+  
+  ✗  a second time: something should happen
+       expected 1 to equal 5
+  
+  ✓  a second time: should throw
+  
+  ✗  a second time: should not throw
+       should not throw, but threw: test
+  
+  ✗  should not throw a second time
+       should not throw, but threw: test
+
+
+  Failed
+
+    ✗  a second time: should not throw
+         should not throw, but threw: test
+    
+    ✗  should not throw a second time
+         should not throw, but threw: test
+    
+    ✗  a second time: something should happen
+         expected 1 to equal 5
+    
+  Successful
+
+    ✔  a second time: should throw
+  
+    ✔  a second time: something should do a thing
+  
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  should throw
+  
+  ⠋  something should do a thing
+  
+  ⠋  something should happen
+  
+  ⠋  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  should throw
+  
+  ⠙  something should do a thing
+  
+  ⠙  something should happen
+  
+  ⠙  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  should throw
+  
+  ⠹  something should do a thing
+  
+  ⠹  something should happen
+  
+  ⠹  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  should throw
+  
+  ⠸  something should do a thing
+  
+  ⠸  something should happen
+  
+  ⠸  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  should throw
+  
+  ⠼  something should do a thing
+  
+  ⠼  something should happen
+  
+  ⠼  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  should throw
+  
+  ⠴  something should do a thing
+  
+  ⠴  something should happen
+  
+  ⠴  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  should throw
+  
+  ⠦  something should do a thing
+  
+  ⠦  something should happen
+  
+  ⠦  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  should throw
+  
+  ⠧  something should do a thing
+  
+  ⠧  something should happen
+  
+  ⠧  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  should throw
+  
+  ⠇  something should do a thing
+  
+  ⠇  something should happen
+  
+  ⠇  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  should throw
+  
+  ⠏  something should do a thing
+  
+  ⠏  something should happen
+  
+  ⠏  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  should throw
+  
+  ⠋  something should do a thing
+  
+  ⠋  something should happen
+  
+  ⠋  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  should throw
+  
+  ⠙  something should do a thing
+  
+  ⠙  something should happen
+  
+  ⠙  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  should throw
+  
+  ⠹  something should do a thing
+  
+  ⠹  something should happen
+  
+  ⠹  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  should throw
+  
+  ⠸  something should do a thing
+  
+  ⠸  something should happen
+  
+  ⠸  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  should throw
+  
+  ⠼  something should do a thing
+  
+  ⠼  something should happen
+  
+  ⠼  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  should throw
+  
+  ⠴  something should do a thing
+  
+  ⠴  something should happen
+  
+  ⠴  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  should throw
+  
+  ⠦  something should do a thing
+  
+  ⠦  something should happen
+  
+  ⠦  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  should throw
+  
+  ⠧  something should do a thing
+  
+  ⠧  something should happen
+  
+  ⠧  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  should throw
+  
+  ⠇  something should do a thing
+  
+  ⠇  something should happen
+  
+  ⠇  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  should throw
+  
+  ⠏  something should do a thing
+  
+  ⠏  something should happen
+  
+  ⠏  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  should throw
+  
+  ⠋  something should do a thing
+  
+  ⠋  something should happen
+  
+  ⠋  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  should throw
+  
+  ⠙  something should do a thing
+  
+  ⠙  something should happen
+  
+  ⠙  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  should throw
+  
+  ⠹  something should do a thing
+  
+  ⠹  something should happen
+  
+  ⠹  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  should throw
+  
+  ⠸  something should do a thing
+  
+  ⠸  something should happen
+  
+  ⠸  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  should throw
+  
+  ⠼  something should do a thing
+  
+  ⠼  something should happen
+  
+  ⠼  should not throw
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  should throw
+  
+  ⠴  something should do a thing
+  
+  ⠴  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  should throw
+  
+  ⠦  something should do a thing
+  
+  ⠦  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠧  should throw
+  
+  ⠧  something should do a thing
+  
+  ⠧  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠇  should throw
+  
+  ⠇  something should do a thing
+  
+  ⠇  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠏  should throw
+  
+  ⠏  something should do a thing
+  
+  ⠏  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠋  should throw
+  
+  ⠋  something should do a thing
+  
+  ⠋  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠙  should throw
+  
+  ⠙  something should do a thing
+  
+  ⠙  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠹  should throw
+  
+  ⠹  something should do a thing
+  
+  ⠹  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠸  should throw
+  
+  ⠸  something should do a thing
+  
+  ⠸  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠼  should throw
+  
+  ⠼  something should do a thing
+  
+  ⠼  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠴  should throw
+  
+  ⠴  something should do a thing
+  
+  ⠴  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ⠦  should throw
+  
+  ⠦  something should do a thing
+  
+  ⠦  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠧  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠇  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠏  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠋  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠙  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠹  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠸  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠼  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠴  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠦  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠧  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠇  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠏  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠋  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠙  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠹  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠸  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠼  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠴  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠦  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠧  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠇  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠏  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠋  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ⠙  something should happen
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+
+  --------------- Console was cleared. ---------------
+
+
+    
+  ✓  should throw
+  
+  ✓  something should do a thing
+  
+  ✗  something should happen
+       expected 1 to equal 5
+  
+  ✗  should not throw
+       should not throw, but threw: test
+
+
+  Failed
+
+    ✗  should not throw
+         should not throw, but threw: test
+    
+    ✗  something should happen
+         expected 1 to equal 5
+    
+  Successful
+
+    ✔  something should do a thing
+  
+    ✔  should throw
+  
+
+  --------------- Console was cleared. ---------------
+
+
+  
+./test/example2.test.ts
+
+  Failed
+
+    ✗  a second time: should not throw
+         should not throw, but threw: test
+    
+    ✗  should not throw a second time
+         should not throw, but threw: test
+    
+    ✗  a second time: something should happen
+         expected 1 to equal 5
+    
+  Successful
+
+    ✔  a second time: should throw
+  
+    ✔  a second time: something should do a thing
+  
+  
+./test/index.test.ts
+
+  Failed
+
+    ✗  should not throw
+         should not throw, but threw: test
+    
+    ✗  something should happen
+         expected 1 to equal 5
+    
+  Successful
+
+    ✔  something should do a thing
+  
+    ✔  should throw
+  
+  ---
+
+  4 test(s) passed.
+  5 test(s) failed.
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

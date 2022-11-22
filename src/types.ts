@@ -1,8 +1,8 @@
 export interface TestContext {
   cwd: string;
-};
+}
 
-export type TestFn = (t: TestContext) => void | Promise<void>;
+export type TestFn = (t?: TestContext) => void | Promise<void>;
 
 export type Test = {
   name: string;

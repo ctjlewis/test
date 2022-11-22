@@ -1,33 +1,48 @@
 {
-  "name": "bun-test",
+  "name": "@tsmodule/test",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "type": "module",
-  "bin": "src/bin.ts",
-  "types": "src/index.ts",
+  "bin": {
+    "tsm-test": "dist/bin.js"
+  },
+  "types": "dist/index.d.ts",
   "exports": {
-    ".": "./src/index.ts",
-    "./*": "./src/*/index.ts"
+    "./package.json": "./package.json",
+    ".": "./dist/index.js",
+    "./*": "./dist/*/index.js"
+  },
+  "scripts": {
+    "dev": "tsmodule dev",
+    "build": "tsmodule build",
+    "pretest": "tsmodule build && npm link -f",
+    "test": "tsm-test",
+    "prepublishOnly": "yarn test",
+    "lint": "eslint src --fix"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "eslint": "^8.22.0"
+    "@tsmodule/tsmodule": "^41.4.0",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
   },
   "dependencies": {
-    "bun-spinners": "^0.2.0",
-    "bun-style": "^0.3.0",
+    "@tsmodule/log": "^0.3.4",
+    "@tsmodule/spinners": "^0.2.4",
     "fast-glob": "^3.2.11",
     "ora": "^6.1.2"
   },
   "files": [
-    "tsconfig.json",
-    "bun.lockb",
-    "node_modules.bun",
-    "assets/**/*",
-    "src/**/*"
+    "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctjlewis/bun-test.git"
+    "url": "https://github.com/tsmodule/test"
+  },
+  "platform": "node",
+  "engines": {
+    "node": ">=14"
   }
 }
