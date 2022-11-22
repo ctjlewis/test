@@ -67,15 +67,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tsmodule/log@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-1.1.0.tgz#87cabe73b479774339dd7d113127b671d32293ca"
-  integrity sha512-IWAxcFcS2KEJm8Dx/8kiMd0XUivVhLP/zT6AmtCftc5iyzKsJmvqouL9da9A42eXXzrS5gTDQnYotUkwy/2rOw==
+"@tsmodule/log@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-1.1.2.tgz#8a3399b54a8865556843600817970c34e37bd98e"
+  integrity sha512-fJ4J2Lplw3YwzLBqmZtDr0647S3yYUEZvlW1LgyPVIGiV3Jljt0RUhYw9SEVv8ux+laGTHD/QS3zvDtES3CYdg==
 
-"@tsmodule/spinners@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@tsmodule/spinners/-/spinners-0.4.0.tgz#f6c295912feacff58a2a4b75f64224569de2d0a5"
-  integrity sha512-f98omkPjEQCKgHy8WfwIGTWV/O+e4P+lEIFc5u920tAXy2Eo99PxGOJB0KN4SV8MdfJs7aWq9f1UlHeMmgvL1w==
+"@tsmodule/spinners@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@tsmodule/spinners/-/spinners-0.4.2.tgz#de9091b562897867389fd2b2060317d126315da8"
+  integrity sha512-UETCn6htdUdPmhmg4ilSJXmWginTH7NzXMWshskRuvm89WxrlOpNtEcpwks2ehGb7DJcryG2EIkYPPrDtYz5Mw==
 
 "@tsmodule/tsmodule@^41.11.0":
   version "41.11.0"
