@@ -1,7 +1,7 @@
 {
   "name": "@tsmodule/test",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "bin": {
     "tsm-test": "dist/bin.js"
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@tsmodule/log": "^0.3.4",
-    "@tsmodule/spinners": "^0.2.4",
+    "@tsmodule/spinners": "^0.2.5",
     "fast-glob": "^3.2.11",
     "ora": "^6.1.2"
   },
