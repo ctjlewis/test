@@ -4,7 +4,7 @@ import { SpinnerResult } from "@tsmodule/spinners";
 export const printResult = (
   spinnerResult: SpinnerResult
 ) => {
-  const { successes, failures } = spinnerResult;
+  const { successes = [], failures = [] } = spinnerResult;
 
   group.start("Failed");
   for (const [name, errorText] of failures) {

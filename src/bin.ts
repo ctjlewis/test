@@ -1,4 +1,4 @@
-#!/usr/bin/env node --loader=@tsmodule/tsmodule/loader --no-warnings
+#!/usr/bin/env tsmodule
 import { argv } from "process";
 import { resolve } from "path";
 import glob from "fast-glob";
@@ -17,28 +17,28 @@ type RunResult = {
 };
 
 export const runTests = async (...files: string[]) => {
-  const results: RunResult[] = [];
+  const failureResults: RunResult[] = [];
 
   for (const file of files) {
     try {
       await import(resolve(process.cwd(), file));
     } catch (spinnerResult) {
-      results.push({ file, spinnerResult: spinnerResult as SpinnerResult });
+      failureResults.push({
+        file,
+        spinnerResult: spinnerResult as SpinnerResult
+      });
+      continue;
     }
   }
 
-  return results;
+  return failureResults;
 };
 
-// let successes = 0;
-let failures = 0;
-const runResults = await runTests(...files);
+const runResults = await runTests(...files) || [];
 clear();
 
 for (const result of runResults) {
   const { file, spinnerResult } = result;
-  failures += spinnerResult.failures.length;
-  // successes += spinnerResult.successes.length;
 
   log(`\n${file}`, ["bold", "underline"]);
   printResult(spinnerResult);
@@ -46,6 +46,7 @@ for (const result of runResults) {
 
 log("---", ["dim"]);
 
+const failures = runResults.length;
 if (failures) {
   error(`${failures} test(s) failed.`, ["italic"]);
   process.exit(1);

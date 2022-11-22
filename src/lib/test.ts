@@ -23,8 +23,8 @@ export const tests = async (
   testConfigs: Record<string, TestFn>,
 ) => {
   try {
-    const result = await spinners(testConfigs);
-    return result;
+    const spinnerResult = await spinners(testConfigs);
+    return spinnerResult;
   } catch (spinnerResult) {
     printResult(spinnerResult as SpinnerResult);
     throw spinnerResult;

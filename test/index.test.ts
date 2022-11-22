@@ -1,4 +1,4 @@
-import { shouldBeEqual, shouldNotThrow, shouldThrow } from "../src";
+import { shouldBeEqual, shouldThrow } from "../src";
 import { tests, sleep } from "../src/lib";
 
 await tests({
