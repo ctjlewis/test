@@ -46,8 +46,6 @@ for (const result of runResults) {
   printResult(spinnerResult);
 }
 
-log("---", ["dim"]);
-
 const failures = runResults.length;
 if (failures) {
   error(`${failures} test(s) failed.`, ["italic"]);
