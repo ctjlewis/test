@@ -7,6 +7,7 @@ import { clear, error, log, success } from "@tsmodule/log";
 import { SpinnerResult } from "@tsmodule/spinners";
 
 import { printResult } from "./lib/print";
+import { pathToFileURL } from "url";
 
 const args = argv.slice(2);
 const files: string[] = args.length ? args : glob.sync("./test/**/*.test.ts");
@@ -21,7 +22,8 @@ export const runTests = async (...files: string[]) => {
 
   for (const file of files) {
     try {
-      await import(resolve(process.cwd(), file));
+      const url = pathToFileURL(resolve(process.cwd(), file));
+      await import(url.href);
     } catch (spinnerResult) {
       failureResults.push({
         file,
