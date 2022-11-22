@@ -77,17 +77,17 @@
   resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-0.3.4.tgz#643f513aa8bbd45dc490a7353fdc315e8938bc61"
   integrity sha512-3Y0cCGG7q/ZFSizlg8EHBejMtj0sJIxojpVWqJjrzlSeoKunX/L9ngeWrLSN+D9AYSewa1hB6C6fGuw3K9jGMg==
 
-"@tsmodule/log@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-0.3.6.tgz#0b4cfe590b9202f6d2327a6854872db55b116fc0"
-  integrity sha512-vlR5EHq9W2Lumj48BWRRwwQpw69/TtthzczyteURkruWNjyEZ6m1zMPw1c3mJ75Sm/EXvabFVGhJjqnD7fwsMg==
+"@tsmodule/log@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-0.4.1.tgz#4a74dc87b61118ae285f796bd24ac025aa492e88"
+  integrity sha512-CpNRQ3kcMFoo8OMjXg2gq8D+19zhkpWroIiFgErHaJbKmKu/5MHnVl7TDFb9QaLqh7Og/4PeR4PyZsKlbhk1Bw==
 
-"@tsmodule/spinners@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@tsmodule/spinners/-/spinners-0.2.5.tgz#9988f93d36d01161ddc1b564088c9ef4d595cd47"
-  integrity sha512-xwWl/lqfTcFLT5O1eaStyGMBNggHUxzLA7a/cxW5mYT0eJXYiflmZAwCuFEJPX+LZS+YRhKE3wCfZ/ZKLtoVzw==
+"@tsmodule/spinners@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@tsmodule/spinners/-/spinners-0.2.6.tgz#e64d386d8af4e964485828fe09ff3340f6b2987b"
+  integrity sha512-7VBJMCD/o671Wpm41QeOnBVlYdZHFADIsKJaZAhSTNNqt3cg6tAWMjI8hukucN/TPKAUR2uPdXgIUg2DR1s1Vg==
   dependencies:
-    "@tsmodule/log" "^0.3.6"
+    "@tsmodule/log" "^0.4.1"
     cli-spinners "^2.7.0"
     debug-logging "^4.0.4"
 
