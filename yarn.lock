@@ -77,6 +77,11 @@
   resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-0.4.1.tgz#4a74dc87b61118ae285f796bd24ac025aa492e88"
   integrity sha512-CpNRQ3kcMFoo8OMjXg2gq8D+19zhkpWroIiFgErHaJbKmKu/5MHnVl7TDFb9QaLqh7Og/4PeR4PyZsKlbhk1Bw==
 
+"@tsmodule/log@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tsmodule/log/-/log-1.0.0.tgz#aa843c2fcd890484b168f39c0eb59341a57de997"
+  integrity sha512-iA220Jgbwc5ckRIgqg9f7O3k8O0pE3/AdiaFcEeX7BfjmY6G3XqUyFlbC2dVaxopm2iquRZq+Q/1vq1yhucd8g==
+
 "@tsmodule/spinners@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@tsmodule/spinners/-/spinners-0.2.6.tgz#e64d386d8af4e964485828fe09ff3340f6b2987b"
