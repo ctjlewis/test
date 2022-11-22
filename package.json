@@ -1,7 +1,7 @@
 {
   "name": "@tsmodule/test",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "bin": {
     "tsm-test": "dist/bin.js"
@@ -14,25 +14,22 @@
   },
   "scripts": {
     "dev": "tsmodule dev",
-    "build": "tsmodule build",
-    "pretest": "tsmodule build && npm link -f",
+    "build": "tsmodule build --standalone \"src/{index.ts,bin.ts}\"",
+    "pretest": "yarn build && npm link -f",
     "test": "tsm-test",
     "prepublishOnly": "yarn test",
     "lint": "eslint src --fix"
   },
   "devDependencies": {
-    "@tsmodule/tsmodule": "^41.4.0",
-    "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.28.0",
-    "typescript": "^4.9.3"
-  },
-  "dependencies": {
-    "@tsmodule/log": "^1.0.0",
+    "@tsmodule/log": "^1.1.0",
     "@tsmodule/spinners": "^0.4.0",
+    "@tsmodule/tsmodule": "^41.11.0",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
     "fast-glob": "^3.2.11",
-    "ora": "^6.1.2"
+    "typescript": "^4.9.3"
   },
   "files": [
     "dist"
