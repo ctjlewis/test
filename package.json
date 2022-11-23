@@ -1,7 +1,7 @@
 {
   "name": "@tsmodule/test",
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "bin": {
     "tsm-test": "dist/bin.js"
@@ -21,8 +21,8 @@
     "lint": "eslint src --fix"
   },
   "devDependencies": {
-    "@tsmodule/log": "^1.1.2",
-    "@tsmodule/spinners": "^0.4.2",
+    "@tsmodule/log": "^1.1.6",
+    "@tsmodule/spinners": "^0.4.4",
     "@tsmodule/tsmodule": "^41.11.0",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.44.0",

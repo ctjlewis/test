@@ -8,7 +8,7 @@ export const printResult = (
 
   group.start("Failed");
   for (const [name, errorText] of failures) {
-    error(`✗  ${name}`, ["bold"], { level: 1, newlines: 0 });
+    error(`✗  ${name}`, ["bold"], { level: 1, postLines: 0 });
     group.start();
     error(`   ${errorText}`, ["dim"]);
     group.end();
@@ -17,7 +17,7 @@ export const printResult = (
 
   group.start("Successful");
   for (const name of successes) {
-    log(`✔  ${name}`, ["bold", "dim", "green"], { level: 1, newlines: 1 });
+    log(`✔  ${name}`, ["bold", "dim", "green"], { level: 1, postLines: 1 });
   }
   group.end();
 };
