@@ -3,20 +3,20 @@ import { TestFn } from "../types";
 import { printResult } from "./print";
 
 export type TestOptions = {
-  flushStdout?: boolean;
+  flush?: boolean;
 };
 
 export const test = async (
   name: string,
   testFn: TestFn,
-  { flushStdout = true }: TestOptions = {}
+  { flush = false }: TestOptions = {}
 ) => {
   try {
     const spinnerResult = await spinners(
       {
         [name]: async () => await testFn()
       },
-      { flushStdout }
+      { flush }
     );
 
     printResult(spinnerResult);
@@ -29,12 +29,12 @@ export const test = async (
 
 export const tests = async (
   testConfigs: Record<string, TestFn>,
-  { flushStdout = true }: TestOptions = {}
+  { flush = false }: TestOptions = {}
 ) => {
   try {
     const spinnerResult = await spinners(
       testConfigs,
-      { flushStdout }
+      { flush }
     );
 
     return spinnerResult;
